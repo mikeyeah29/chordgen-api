@@ -19,6 +19,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/generate', function(){
 
-	return response()->json(['chords' => 'abcd'], 200);
+	return response()->json(['chords' => 'gibberish'], 200);
 
 });
